@@ -6,6 +6,7 @@ namespace RentApp.Models
     public class Comment : BaseEntity
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]

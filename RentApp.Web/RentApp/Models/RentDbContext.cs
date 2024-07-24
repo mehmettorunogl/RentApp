@@ -28,7 +28,7 @@ namespace RentApp.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Server=MEHMET\\MSSQLSERVER02;Database=RentDb;Trusted_Connection=true;Encrypt=false;"
+                "Server=MEHMET;Database=RentDb;Trusted_Connection=true;Encrypt=false;"
                 );
             base.OnConfiguring(optionsBuilder);
         }

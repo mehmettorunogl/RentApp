@@ -1,13 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RentApp.Models
 {
     public class Gallery : BaseEntity
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public int? HouseId { get; set; }
+        [Required]
+        public int HouseId { get; set; }
+        [ForeignKey("HouseId")]
+        public virtual House House { get; set; }
 
         [Required, StringLength(128)]
         public string? ImageUrl1 { get; set; }
