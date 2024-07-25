@@ -18,10 +18,23 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+//kimlik doðrulama
 app.UseAuthorization();
+//yetki doðrulama
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapAreaControllerRoute(
+        name: "Management",
+        areaName: "Management",
+        pattern: "Management/{controller=Dashboard}/{action=Index}/{id?}");
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller}/{action}"
+    );
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 app.Run();

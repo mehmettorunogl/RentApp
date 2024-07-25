@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Migrations\\20240724192322_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RentApp\\Migrations\\20240724192322_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_script.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_script.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\rentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\rentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_switcher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_switcher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\models\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\models\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\areas\\management\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\areas\\management\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|c:\\users\\mehme\\documents\\github\\rentapp\\rentapp.web\\rentapp\\rentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B43A69E-B3CF-4CCB-BB08-C2E1C61BB1DC}|RentApp\\RentApp.csproj|solutionrelative:rentapp\\rentapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240724192322_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Migrations\\20240724192322_Initial.cs",
-              "RelativeDocumentMoniker": "RentApp\\Migrations\\20240724192322_Initial.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Migrations\\20240724192322_Initial.cs",
-              "RelativeToolTip": "RentApp\\Migrations\\20240724192322_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T19:23:22.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\User.cs",
-              "RelativeToolTip": "RentApp\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:57:28.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Price.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Price.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\Price.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Price.cs",
-              "RelativeToolTip": "RentApp\\Models\\Price.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:57:10.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\MainPage.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\MainPage.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\MainPage.cs",
-              "RelativeToolTip": "RentApp\\Models\\MainPage.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAgAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:57:06.908Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:26:07.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Gallery.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Gallery.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\Gallery.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Gallery.cs",
-              "RelativeToolTip": "RentApp\\Models\\Gallery.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wA4AAAAwAAAA",
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:57:02.721Z",
+              "WhenOpened": "2024-07-25T16:21:48.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Comment.cs",
-              "RelativeToolTip": "RentApp\\Models\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:56:52.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "About.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\About.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\About.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\About.cs",
-              "RelativeToolTip": "RentApp\\Models\\About.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:17:14.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Rent.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Rent.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\Rent.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Rent.cs",
-              "RelativeToolTip": "RentApp\\Models\\Rent.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:12:28.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\Contact.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\Contact.cs",
-              "RelativeToolTip": "RentApp\\Models\\Contact.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwCYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:07:49.167Z",
+              "DocumentIndex": 5,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "RentApp\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:12:31.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "House.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\House.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\House.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\House.cs",
-              "RelativeToolTip": "RentApp\\Models\\House.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB8AAAAqAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:11:11.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:04:25.199Z",
+              "WhenOpened": "2024-07-25T16:11:05.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Script.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Script.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Script.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Script.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Script.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:02:19.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "RentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\RentDbContext.cs",
-              "RelativeDocumentMoniker": "RentApp\\Models\\RentDbContext.cs",
-              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Models\\RentDbContext.cs",
-              "RelativeToolTip": "RentApp\\Models\\RentDbContext.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA2wCkAAAABAAAA",
+              "Title": "_Switcher.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Switcher.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Switcher.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Switcher.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Switcher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:01:34.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T16:00:53.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AQIAAH8BAAAAAAAAAAAowLwBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T15:59:37.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowCEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T15:58:46.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Head.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Head.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Head.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Head.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Head.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T15:57:24.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RentApp\\Areas\\Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Areas\\Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RentApp\\Areas\\Management\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T15:55:09.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Program.cs",
+              "RelativeDocumentMoniker": "RentApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\Program.cs",
+              "RelativeToolTip": "RentApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T16:50:25.45Z",
+              "WhenOpened": "2024-07-25T15:39:38.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "RentApp\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "RentApp\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-25T15:38:38.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RentApp",
+              "DocumentMoniker": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\RentApp.csproj",
+              "RelativeDocumentMoniker": "RentApp\\RentApp.csproj",
+              "ToolTip": "C:\\Users\\mehme\\Documents\\GitHub\\RentApp\\RentApp.Web\\RentApp\\RentApp.csproj",
+              "RelativeToolTip": "RentApp\\RentApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-25T15:37:22.766Z",
               "EditorCaption": ""
             }
           ]
