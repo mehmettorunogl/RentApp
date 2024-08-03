@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RentApp.Models;
+using RentApp.Utils;
+using System.Security.Claims;
 
 namespace RentApp.Areas.Management.Controllers
 {
@@ -20,72 +22,43 @@ namespace RentApp.Areas.Management.Controllers
             return View(about);
         }
 
-        // GET: AboutController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: AboutController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: AboutController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
         // GET: AboutController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var about = db.Abouts.Find(id);
+            if (about == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            return View(about);
         }
 
         // POST: AboutController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
+        public async Task<ActionResult> Edit(About model, IFormFile? img){
+            try{
+                if (ModelState.IsValid) {
+                    var about = db.Abouts.Find(model.Id);
+                    if (about == null){
+                        return RedirectToAction(nameof(Index));
+                    }
+					about.Title = model.Title;
+					about.Description = model.Description;
+					if (img != null){
+                        await ImageUploader.DeleteImageAsync(_environment, about.ImageUrl);
+                        about.ImageUrl = await ImageUploader.UploadImageAsync(_environment, img);
+                    }
+                    about.UpdatedDate = model.UpdatedDate;
+                    about.UpdatedBy = Convert.ToInt32(User.Claims.FirstOrDefault(r => r.Type == ClaimTypes.NameIdentifier)?.Value);
+                    about.Status = model.Status;
+                    db.SaveChanges();
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(model);
             }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: AboutController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: AboutController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
+            catch{
+                return View(model);
             }
         }
     }

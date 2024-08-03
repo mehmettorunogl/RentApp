@@ -32,6 +32,5 @@ namespace RentApp.Models
 
         [StringLength(128)]
         public string? ImageUrl4 { get; set; }
-
     }
 }

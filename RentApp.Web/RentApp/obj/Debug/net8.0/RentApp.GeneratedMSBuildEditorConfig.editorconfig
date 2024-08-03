@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mehme\Documents\GitHub\RentApp\RentApp.Web\RentApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/About/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xBYm91dFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xBYm91dFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/Shared/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xTaGFyZWRcX0Zvb3Rlci5jc2h0bWw=
+[C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/MainPage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xNYWluUGFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/MainPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xNYWluUGFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/Shared/_Head.cshtml]
@@ -68,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Areas/Management/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlbWVudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehme/Documents/GitHub/RentApp/RentApp.Web/RentApp/Views/Home/Index.cshtml]

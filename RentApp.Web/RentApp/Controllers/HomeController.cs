@@ -7,6 +7,7 @@ namespace RentApp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        RentDbContext db = new RentDbContext();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -15,7 +16,14 @@ namespace RentApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var mainpage = db.MainPages.FirstOrDefault();
+            return View(mainpage);
+        }
+
+        public IActionResult About()
+        {
+            var about = db.Abouts.FirstOrDefault();
+            return View(about);
         }
 
         public IActionResult Privacy()

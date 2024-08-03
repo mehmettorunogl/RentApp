@@ -1,0 +1,92 @@
+﻿@model MainPage
+<div class="row">
+    <div class="col-12">
+        <div class="card border-top border-0 border-4 border-dark">
+            <div class="card-body p-5">
+                <div class="card-title text-center">
+                    <h1 class="mb-5 mt-2 text-dark">Anasayfa Düzenle</h1>
+                </div>
+                <hr>
+                <form class="row g-3" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="Id" />
+
+                    <h2>Sayfanın Üst Kısmı</h2>
+                    <h3>İlk Resimi Seçin</h3>
+                    <div class="col-12">
+                        <label asp-for="ImageUrl1" class="form-label">Resim</label>
+                        <img src="@Model.ImageUrl1" width="200px" />
+                        <input type="file" class="form-control border-start-0" name="img1" accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl1"></span>
+                    </div>
+                    
+                    <h3>İkinci Resimi Seçin</h3>
+                    <div class="col-12">
+                        <label asp-for="ImageUrl2" class="form-label">Resim</label>
+                        <img src="@Model.ImageUrl2" width="200px" />
+                        <input type="file" class="form-control border-start-0" name="img2"  accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl2"></span>
+                    </div>
+                    
+                    <h3>Üçüncü Resimi Seçin</h3>
+                    <div class="col-12">
+                        <label asp-for="ImageUrl3" class="form-label">Resim</label>
+                        <img src="@Model.ImageUrl3" width="200px" />
+                        <input type="file" class="form-control border-start-0" name="img3" accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl3"></span>
+                    </div>
+                    <div>
+                        <div class="col-12">
+                            <label asp-for="Title1" class="form-label">Başlık</label>
+                            <input type="text" class="form-control border-start-0" asp-for="Title1" placeholder="Başlık">
+                            <span class="text-danger" asp-validation-for="Title1"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description1" class="form-label">Açıklama</label>
+                            <textarea asp-for="Description1" class="form-control ckeditor"
+                                      placeholder="Açıklama" rows="4"></textarea>
+                            <span class="text-danger" asp-validation-for="Description1"></span>
+                        </div>
+                    </div>
+                    <h1>Sayfanın Alt Kısmı</h1>
+                    <div>
+                        <div class="col-12">
+                            <label asp-for="Title2" class="form-label">Başlık</label>
+                            <input type="text" class="form-control border-start-0" asp-for="Title2" placeholder="Başlık">
+                            <span class="text-danger" asp-validation-for="Title2"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description2" class="form-label">Açıklama</label>
+                            <textarea asp-for="Description2" class="form-control ckeditor"
+                                      placeholder="Açıklama" rows="4"></textarea>
+                            <span class="text-danger" asp-validation-for="Description2"></span>
+                        </div>
+                        <h3>Hakkımızda Kısmının Resimini Seçin</h3>
+                        <div class="col-12">
+                            <label asp-for="ImageUrl4" class="form-label">Resim</label>
+                            <img src="@Model.ImageUrl4" width="200px" />
+                            <input type="file" class="form-control border-start-0" name="img4" accept="*/image">
+                            <span class="text-danger" asp-validation-for="ImageUrl4"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="Status" class="form-label">Durumu</label>
+                        <select class="form-select mb-3" asp-for="Status">
+                            <option value="true">Aktif</option>
+                            <option value="false">Pasif</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark btn-lg px-5">Kaydet</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid">
+                            <button asp-area="Management" asp-controller="MainPage" asp-action="Index" class="btn btn-danger btn-lg px-5">Kaydetme</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
