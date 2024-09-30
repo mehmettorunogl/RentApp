@@ -1,0 +1,132 @@
+﻿@model House
+<h1>İlan Silme</h1>
+<form method="post">
+<div class="card radius-15">
+	<div class="col">
+			<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleVerticallycenteredModal" >İlanı Sil</button>
+		<div class="modal fade" id="exampleVerticallycenteredModal" tabindex="-1" aria-hidden="true" style="display: none;">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">İlan Silme</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">Silmek istediğinize emin misiniz?</div>
+					<div class="modal-body">(Bütün verileriniz silinecek)</div>
+					<div class="modal-footer">
+							<input type="hidden" asp-for="Id" />
+							<input type="submit" value="Sil" class="btn btn-danger" />
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Silme</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card-body">
+		<h5 class="card-title">@Model.Title</h5>
+		<p class="text-justify">@Html.Raw(@Model.Description)</p>
+		<p>Oluşturma Tarihi: @Model.CreatedDate</p>
+		<p>Düzenlenme Tarihi: @Model.UpdatedDate</p>
+
+		<div class="table-responsive">
+			<table class="table table-bordered">
+				<hr>
+				<img src="@Model.ImageUrl" width="300px" style="margin-right:5px">
+				@foreach (var item in Model.Gallery)
+				{
+					<img src="@item.ImageUrl1" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl2" width="300px">
+					<hr>
+					<img src="@item.ImageUrl3" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl4" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl5" width="300px">
+					<hr>
+					<img src="@item.ImageUrl6" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl7" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl8" width="300px">
+					<hr>
+				}
+				<thead>
+					<tr>
+						<th scope="col" style="text-align:center">Yetişkin Kapasitesi</th>
+						<th scope="col" style="text-align:center">Çocuk Kapasitesi</th>
+						<th scope="col" style="text-align:center">Oda Kapasitesi</th>
+						<th scope="col" style="text-align:center">Tuvalet Kapasitesi</th>
+						<th scope="col" style="text-align:center">Kat Sayısı</th>
+						<th scope="col" style="text-align:center">Email Adresi</th>
+						<th scope="col" style="text-align:center">Ülke</th>
+						<th scope="col" style="text-align:center">Şehir</th>
+						<th scope="col" style="text-align:center">İlçe</th>
+						<th scope="col" style="text-align:center">Adres</th>
+						<th scope="col" style="text-align:center">Gün Sayısı</th>
+						<th scope="col" style="text-align:center">Tutar</th>
+						<th scope="col" style="text-align:center">Temizlik Ücreti</th>
+						<th scope="col" style="text-align:center">Toplam Tutar</th>
+						<th scope="col" style="text-align:center">Durumu</th>
+						<th scope="col" style="text-align:center">#</th>
+
+					</tr>
+				</thead>
+				<div class="col">
+				<tbody>
+				<td>
+					<p style="text-align:center">@Model.AdultCount</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.ChildCount</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.RoomCount</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.BathCount</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.Floors</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.Email</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.Country</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.City</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.District</p>
+				</td>
+				<td>
+					<p style="text-align:center">@Model.Address</p>
+				</td>
+				@foreach (var item in Model.Price)
+				{
+						<td>
+							<p style="text-align:center">@item.Day</p>
+						</td>
+				<td>
+					<p style="text-align:center">@item.CleaningPrice</p>
+				</td>
+				<td>
+					<p style="text-align:center">@item.Cost</p>
+				</td>
+				<td>
+					<p style="text-align:center">@item.Prices</p>
+				</td>
+				}
+				<td>
+					@if (Model.Status)
+					{
+						<span style="text-align:center">Aktif</span>
+					}
+					else
+					{
+						<span style="text-align:center">Pasif</span>
+					}
+				</td>
+				</tbody>
+			</div>
+		</table>
+	</div>
+</div>
+</form>

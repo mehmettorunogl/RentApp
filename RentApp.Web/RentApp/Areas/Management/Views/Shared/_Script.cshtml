@@ -1,0 +1,41 @@
+﻿<!-- Bootstrap JS -->
+<script src="~/management/js/bootstrap.bundle.min.js"></script>
+
+<!--plugins-->
+<script src="~/management/js/jquery.min.js"></script>
+<script src="~/management/plugins/simplebar/js/simplebar.min.js"></script>
+<script src="~/management/plugins/metismenu/js/metisMenu.min.js"></script>
+<script src="~/management/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+<!-- Vector map JavaScript -->
+<script src="~/management/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+<script src="~/management/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="~/management/plugins/vectormap/jquery-jvectormap-in-mill.js"></script>
+<script src="~/management/plugins/vectormap/jquery-jvectormap-us-aea-en.js"></script>
+<script src="~/management/plugins/vectormap/jquery-jvectormap-uk-mill-en.js"></script>
+<script src="~/management/plugins/vectormap/jquery-jvectormap-au-mill.js"></script>
+<script src="~/management/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+<script src="~/management/plugins/notifications/js/notifications.min.js"></script>
+<script src="~/management/plugins/notifications/js/notification-custom-script.js"></script>
+<script src="~/management/js/index.js"></script>
+<!-- App JS -->
+<script src="~/management/js/app.js"></script>
+<script>
+	new PerfectScrollbar('.dashboard-social-list');
+	new PerfectScrollbar('.dashboard-top-countries');
+</script>
+
+<script src="~/management/plugins/select2/js/select2.min.js"></script>
+<script>
+	$('.single-select').select2({
+		theme: 'bootstrap4',
+		width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+		placeholder: $(this).data('placeholder'),
+		allowClear: Boolean($(this).data('allow-clear')),
+	});
+	$('.multiple-select').select2({
+		theme: 'bootstrap4',
+		width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+		placeholder: $(this).data('placeholder'),
+		allowClear: Boolean($(this).data('allow-clear')),
+	});
+</script>

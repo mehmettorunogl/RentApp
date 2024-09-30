@@ -1,0 +1,192 @@
+﻿@using RentApp.Areas.Management.Models
+@model HouseGalleryViewModels
+@{
+    ViewData["Title"] = "Edit House";
+}
+<div class="row">
+	<div class="col-12">
+		<div class="card border-top border-0 border-4 border-dark">
+			<div class="card-body p-5">
+				<div class="card-title text-center">
+					<h1 class="mb-5 mt-2 text-light">Ev Düzenle</h1>
+				</div>
+				<hr>
+				<form class="row g-3" method="post" enctype="multipart/form-data">
+					<input type="hidden" asp-for="HouseId" />
+					<div class="col-12">
+						<label asp-for="@Model.Title" class="form-label">Başlık</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Title" placeholder="Başlık Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Title"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Description" class="form-label">Açıklama</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Description" placeholder="Açıklama Giriniz">
+							<span class="text-danger" asp-validation-for="Description"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.AdultCount" class="form-label">Yetişkin Kapasitesi</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.AdultCount" placeholder="Yetişkin Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.AdultCount"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ChildCount" class="form-label">Çocuk Kapasitesi</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.ChildCount" placeholder="Çocuk Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.ChildCount"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.RoomCount" class="form-label">Oda Sayısı</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.RoomCount" placeholder="Oda Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.RoomCount"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Floors" class="form-label">Kat Sayısı</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Floors" placeholder="Kat Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Floors"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.BathCount" class="form-label">Banyo Sayısı</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.BathCount" placeholder="Banyo Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.BathCount"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Email" class="form-label">Email Adresi</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Email" placeholder="Email Adresini Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Email"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Country" class="form-label">Ülke</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Country" placeholder="Ülkeyi Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Country"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.City" class="form-label">Şehir</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.City" placeholder="Şehri Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.City"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.District" class="form-label">İlçe</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.District" placeholder="İlçeyi Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.District"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Address" class="form-label">Adres</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Address" placeholder="Adresi Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Address"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl" class="form-label">Kapak Resmi</label>
+						<img src="@Model.ImageUrl" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl1" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl1" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img1" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl1"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl2" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl2" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img2" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl2"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl3" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl3" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img3" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl3"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl4" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl4" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img4" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl4"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl5" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl5" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img5" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl5"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl6" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl6" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img6" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl6"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl7" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl7" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img7" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl7"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.ImageUrl8" class="form-label">Resim</label>
+						<img src="@Model.ImageUrl8" width="200px" />
+						<input type="file" class="form-control border-start-0" name="img8" accept="*/image">
+						<span class="text-danger" asp-validation-for="@Model.ImageUrl8"></span>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Day" class="form-label">Gün Sayısı</label>
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control border-start-0" asp-for="@Model.Day" placeholder="Gün Sayısını Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Day"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.Cost" class="form-label">Ücret</label>
+						<div class="input-group input-group-lg">
+							<input type="number" class="form-control border-start-0" asp-for="@Model.Cost" placeholder="Ücreti Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.Cost"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="@Model.CleaningPrice" class="form-label">Temizlik Ücreti</label>
+						<div class="input-group input-group-lg">
+							<input type="number" class="form-control border-start-0" asp-for="@Model.CleaningPrice" placeholder="Temizlik Ücretini Giriniz">
+							<span class="text-danger" asp-validation-for="@Model.CleaningPrice"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<label asp-for="Status" class="form-label">Durumu</label>
+						<select class="form-select mb-3" asp-for="Status">
+							<option value="true">Aktif</option>
+							<option value="false">Pasif</option>
+						</select>
+					</div>
+					<div class="col-12">
+						<div class="d-grid">
+							<button type="submit" class="btn btn-dark btn-lg px-5"><i class="bx bxs-lock-open"></i>Kaydet</button>
+						</div>
+					</div>
+					<hr>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

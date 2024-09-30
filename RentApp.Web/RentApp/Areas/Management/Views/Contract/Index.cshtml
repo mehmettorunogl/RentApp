@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Rent>
+<h1>Sözleşmeler</h1>
+<br>
+<div class="row">
+	@foreach (var item in Model)
+	{
+		<div class="col-12 col-lg-4 col-xl-4">
+			<div class="card">
+				@if (!string.IsNullOrEmpty(item.Gallery.House.ImageUrl))
+				{
+					<img src="@item.Gallery.House.ImageUrl" class="card-img-top">
+				}
+				<div class="card-body">
+					<h5 class="card-title">@item.Gallery.House.Title</h5>
+					<p class="card-text">@Html.Raw(item.Gallery.House.Description)</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">İsim Soyisim: @item.User.FirstName @item.User.LastName</li>
+				</ul>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Ücret: @item.TotalPrice.ToString("0") TL</li>
+				</ul>
+				<a class="btn btn-info"
+				   asp-area="Management"
+				   asp-controller="Contract"
+				   asp-action="Details"
+				   asp-route-id="@item.Id">
+				   Sözleşme Detay
+				</a>
+				<br />
+				<a class="btn btn-danger"
+				   asp-area="Management"
+				   asp-controller="Contract"
+				   asp-action="Delete"
+				   asp-route-id="@item.Id">Sözleşmeyi Sil</a>
+			</div>
+		</div>
+	}
+</div>
+<br>

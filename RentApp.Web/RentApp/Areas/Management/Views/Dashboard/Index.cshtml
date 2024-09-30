@@ -1,0 +1,21 @@
+﻿<div class="wrapper">
+	<div class="error-404 d-flex align-items-center justify-content-center">
+		<div class="container">
+			<div class="card radius-15 shadow-none">
+							@if (User.Identity.IsAuthenticated)
+							{
+					<h1 class="display-1" style="text-align:center"><span class="text-primary">Sayın</span><span class="text-primary"> @User.Identity.Name</span></h1>
+					<h1 class="display-1" style="text-align:center"><span class="text-primary">Hoş Geldiniz</span></h1>
+							}
+			</div>
+		</div>
+	</div>
+	<script src="~/Management/js/bootstrap.bundle.min.js"></script>
+	
+	<!--plugins-->
+	<script src="~/Management/js/jquery.min.js"></script>
+	<script src="~/Management/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="~/Management/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="~/Management/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+

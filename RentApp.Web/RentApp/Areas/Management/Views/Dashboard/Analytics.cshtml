@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Rent>
+<div class="card radius-15 overflow-hidden">
+	<div class="card-header border-bottom-0">
+		<div class="d-flex align-items-center">
+			<div>
+				<h2 class="mb-0">Kiracılar</h2>
+			</div>
+		</div>
+	</div>
+	<div class="card-body p-0">
+		<div class="table-responsive">
+			<table class="table mb-0">
+				<thead>
+					<tr>
+						<th>Ev Resmi</th>
+						<th>Müşteri Adı</th>
+						<th>Evin Başlığı</th>
+						<th>Giriş Tarihi</th>
+						<th>Çıkış Tarihi</th>
+						<th>Ücreti</th>
+					</tr>
+				</thead>
+				@foreach (var item in Model)
+				{
+					<tbody>
+						<tr>
+							<td>
+								<div class="product-img bg-transparent border">
+									<img src="@item.Gallery.House.ImageUrl" width="35" alt="">
+								</div>
+							</td>
+							<td>@item.User.FirstName @item.User.LastName</td>
+							<td>@item.Gallery.House.Title</td>
+							<td>@item.CheckinDate.ToString("dd.MM.yyyy")</td>
+							<td>@item.CheckoutDate.ToString("dd.MM.yyyy")</td>
+							<td>@item.TotalPrice.ToString("0")</td>
+						</tr>
+					</tbody>
+				}
+			</table>
+		</div>
+	</div>
+</div>

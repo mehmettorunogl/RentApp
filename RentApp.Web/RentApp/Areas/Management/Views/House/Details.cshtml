@@ -1,0 +1,102 @@
+﻿@model House
+
+<h1>İlan Detay</h1>
+<div class="card radius-15">
+	<div class="card-body">
+		<h5>Oluşturma Tarihi: @Model.CreatedDate</h5>
+		<h5>Düzenlenme Tarihi: @Model.UpdatedDate</h5>
+
+		<div class="table-responsive">
+			<table class="table table-bordered">
+				<hr>
+				<img src="@Model.ImageUrl" width="300px" style="margin-right:5px">
+				@foreach (var item in Model.Gallery)
+				{
+					<img src="@item.ImageUrl1" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl2" width="300px">
+					<hr>
+					<img src="@item.ImageUrl3" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl4" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl5" width="300px">
+					<hr>
+					<img src="@item.ImageUrl6" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl7" width="300px" style="margin-right:5px">
+					<img src="@item.ImageUrl8" width="300px">
+					<hr>
+				}
+				<div class="card radius-15">
+					<div class="card-body">
+						<div class="card-title">
+							<h4 class="mb-0">@Model.Title</h4>
+						</div>
+						<hr>
+						<div class="d-flex align-items-center gap-3">
+							@Html.Raw(@Model.Description)
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" style="display:flex ; align-items:left" >Yetişkin Kapasitesi:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.AdultCount</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Çocuk Kapasitesi:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.ChildCount</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Oda Kapasitesi:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.RoomCount</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Tuvalet Kapasitesi:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.BathCount</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Kat Sayısı:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.Floors</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Email Adresi:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.Email</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Ülke:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.Country</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Şehir:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.City</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >İlçe:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.District</span>
+					</div>
+					<div class="input-group input-group-lg">
+						<span class="input-group-text" >Adres:</span>
+						<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.Address</span>
+					</div>
+					@foreach (var item in Model.Price)
+					{
+						<div class="input-group input-group-lg">
+							<span class="input-group-text">Tutar:</span>
+							<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@item.Cost.ToString("0") TL</span>
+						</div>
+						<div class="input-group input-group-lg">
+							<span class="input-group-text">Gün Sayısı:</span>
+							<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@item.Day</span>
+						</div>
+						<div class="input-group input-group-lg">
+							<span class="input-group-text">Temizlik Ücreti:</span>
+							<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@item.CleaningPrice.ToString("0") TL</span>
+						</div>
+						<div class="input-group input-group-lg">
+							<span class="input-group-text" >Toplam Tutar:</span>
+							<span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@item.Prices.ToString("0") TL</span>
+						</div>
+					}
+				</div>
+			</div>
+		</table>
+	</div>
+</div>

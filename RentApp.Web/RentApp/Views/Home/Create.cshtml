@@ -1,0 +1,71 @@
+﻿@model Contact
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="~/images/loading.gif" alt="#" /></div>
+</div>
+<!-- end loader -->
+<!-- end header -->
+<div class="back_re">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h2>Bizimle İletişime Geçin</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  contact -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="request" class="main_form" method="post">
+                    <div class="row">
+                        @* <div class="col-md-12 ">
+                            <label asp-for="@Model.Name" class="form-label">İsim Soyisim</label>
+                            <input type="text" class="contactus" asp-for="@Model.Name" placeholder="İsminizi Giriniz">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="col-md-12 ">
+                            <label asp-for="@Model.Email" class="form-label">Email</label>
+                            <input type="text" class="contactus" asp-for="@Model.Name" placeholder="Emailinizi Giriniz">
+                            <span class="text-danger" asp-validation-for="Email"></span>
+                        </div>
+                        <div class="col-md-12 ">
+                            <label asp-for="@Model.Message" class="form-label">İsim Soyisim</label>
+                            <input type="text" class="contactus" asp-for="@Model.Message" placeholder="Mesajınızı Giriniz">
+                            <span class="text-danger" asp-validation-for="Message"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="send_btn">Gönder</button>
+                        </div> *@
+                        <div class="col-md-12 ">
+                            <input class="contactus" placeholder="Name" type="type" name="Name">
+                        </div>
+                        <div class="col-md-12">
+                            <input class="contactus" placeholder="Email" type="type" name="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="send_btn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="map_main">
+                    <div class="map-responsive">
+                        <iframe src="@Model.Map" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿@using RentApp.Areas.Management.Models
+@model DashboardViewModel
+<h1>Raporlar</h1>
+<div class="col-12 col-lg-12 col-xl-6 d-flex">
+	<div class="card radius-15 w-100">
+		<div class="card-body">
+			<div class="row row-cols-1 row-cols-md-3 g-3">
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<a asp-controller="Contract" asp-action="Index">
+								<div class="widgets-icons mx-auto bg-wall text-white rounded-circle">
+									<i class="bx bx-bookmark-alt"></i>
+								</div>
+							</a>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.Contracts</h4>
+							<p class="mb-0">Sözleşme Sayısı</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<div class="widgets-icons mx-auto rounded-circle bg-danger text-white">
+								<i class="bx bx-line-chart"></i>
+							</div>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.MonthlyIncome.ToString("0") TL</h4>
+							<p class="mb-0">Aylık Gelir</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<div class="widgets-icons mx-auto rounded-circle bg-danger text-white">
+								<i class="bx bx-line-chart"></i>
+							</div>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.DailyIncome.ToString("0") TL</h4>
+							<p class="mb-0">Günlük Gelir</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<div class="widgets-icons mx-auto bg-primary rounded-circle text-white">
+								<i class="bx bx-group"></i>
+							</div>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.ManagerCount</h4>
+							<p class="mb-0">Ortak Sayısı</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<div class="widgets-icons mx-auto bg-primary rounded-circle text-white">
+								<i class="bx bx-group"></i>
+							</div>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.OwnerCount</h4>
+							<p class="mb-0">Ev Sahibi Sayısı</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card radius-15 mb-0 shadow-none border">
+						<div class="card-body text-center">
+							<div class="widgets-icons mx-auto bg-primary rounded-circle text-white">
+								<i class="bx bx-group"></i>
+							</div>
+							<h4 class="mb-0 font-weight-bold mt-3">@Model.UserCount</h4>
+							<p class="mb-0">Üye Sayısı</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

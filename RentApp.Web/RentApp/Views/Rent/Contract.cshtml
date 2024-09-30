@@ -1,0 +1,111 @@
+﻿@using RentApp.Models.ContractViewModels
+@model ContractViewModels
+
+
+<div class="loader_bg">
+    <div class="loader"><img src="~/images/loading.gif" alt="#" /></div>
+</div>
+<!-- end loader -->
+<div class="back_re">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h2>Kiralama</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- our_room -->
+<form method="post" enctype="multipart/form-data">
+<div class="our_room">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Adınız:</span>
+                        <input type="text" class="form-control border-start-0" asp-for="@Model.FirstName" placeholder="Adınızı Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.FirstName"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Soyadınız:</span>
+                        <input type="text" class="form-control border-start-0" asp-for="@Model.LastName" placeholder="Soyadınızı Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.LastName"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Email Adresiniz:</span>
+                        <input type="text" class="form-control border-start-0" asp-for="@Model.Email" placeholder="Email Adresinizi Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.Email"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Cep Numaranız:</span>
+                        <input type="number" class="form-control border-start-0" asp-for="@Model.Phone" placeholder="Cep Telefonu Numaranızı Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.Phone"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Tc Kimlik Numaranız:</span>
+                        <input type="text" class="form-control border-start-0" asp-for="@Model.IdentityNumber" placeholder="Tc Kimlik Numaranızı Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.IdentityNumber"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Adresiniz:</span>
+                        <input type="text" class="form-control border-start-0" asp-for="@Model.Address" placeholder="Adresinizi Giriniz">
+                        <span class="text-danger" asp-validation-for="@Model.Address"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Doğum Tarihiniz</span>
+                        <input type="date" class="form-control border-start-0" asp-for="@Model.BirthDate" placeholder="Doğum Tarihinizi Giriniz"
+                         value="@Model.BirthDate.ToString("yyyy-MM-dd") == " 0001-01-01" ? DateTime.Now.ToString("yyyy-MM-dd") : Model.BirthDate.ToString("yyyy-MM-dd")">
+                        <span class="text-danger" asp-validation-for="@Model.BirthDate"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" asp-for="@Model.CheckinDate">Resim:</span>
+                        <input type="file" class="form-control border-start-0" name="img" accept="*/image">
+                        <span class="text-danger" asp-validation-for="@Model.ImageUrl"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <p class="text-danger">Uyarı! : Rezervasyon yaptıracağınız gün sayısı @Model.Day Gün olmalıdır.</p>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Başlangıç Tarihi</span>
+                            <input type="date" class="form-control border-start-0" asp-for="@Model.CheckinDate" placeholder="Başlangıç Tarihinizi Giriniz"
+                                   value="@Model.CheckinDate.ToString("yyyy-MM-dd") == " 0001-01-01" ? DateTime.Now.ToString("yyyy-MM-dd") : Model.CheckinDate.ToString("yyyy-MM-dd")">
+                            <span class="text-danger" asp-validation-for="@Model.CheckinDate"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Bitiş Tarihi</span>
+                        <input type="date" class="form-control border-start-0" asp-for="@Model.CheckoutDate" placeholder="Bitiş Tarihinizi Giriniz"
+                         value="@Model.CheckoutDate.ToString("yyyy-MM-dd") == "0001-01-01" ? DateTime.Now.ToString("yyyy-MM-dd") : Model.CheckoutDate.ToString("yyyy-MM-dd")">
+                        <span class="text-danger" asp-validation-for="@Model.CheckoutDate"></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label asp-for="@Model.CleaningPrice" class="input-group-text">Temizlik Ücreti</label>
+                        <span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.CleaningPrice.ToString("0") TL</span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label asp-for="@Model.TotalPrice" class="input-group-text">Toplam Tutar</label>
+                        <span type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">@Model.TotalPrice.ToString("0") TL</span>
+                    </div>
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                <h3 class="alert-heading">Hata</h3>
+                                <p class="mb-0">@error.ErrorMessage</p>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="col-md-12">
+    <a><button type="submit" class="book_btn">Şimdi Kirala</button></a>
+</div>
+</form>
+

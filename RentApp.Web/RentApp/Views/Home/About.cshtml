@@ -1,0 +1,37 @@
+﻿@model About
+    <div class="loader_bg">
+        <div class="loader"><img src="~/images/loading.gif" /></div>
+    </div>
+    <!-- end loader -->
+
+    <!-- end header -->
+    <div class="back_re">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h2>Hakkımızda</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="titlepage">
+                        <h3>@Model.Title</h3>
+                        <p class="margin_0">@Html.Raw(Model.Description)</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="about_img">
+                        <figure><img src="@Model.ImageUrl"/></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->

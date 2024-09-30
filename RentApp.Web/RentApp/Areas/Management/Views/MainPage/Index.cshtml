@@ -1,0 +1,108 @@
+﻿@model MainPage
+<a class="btn btn-warning"
+   asp-area="Management"
+   asp-controller="MainPage"
+   asp-action="Edit"
+   asp-route-id="@Model.Id">Düzenle</a>
+<h1>Sayfanın Üst Kısmı</h1>
+<div class="col">
+    <hr>
+    <div class="card">
+        <div class="card-body">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=""></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class=""></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active" aria-current="true"></li>
+                </ol>
+                <div class="carousel-inner">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl1))
+                    {
+                        <div class="carousel-item active">
+                            <img src="@Model.ImageUrl1" class="d-block w-100">
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl2))
+                    {
+                        <div class="carousel-item">
+                            <img src="@Model.ImageUrl2" class="d-block w-100">
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl3))
+                    {
+                        <div class="carousel-item">
+                            <img src="@Model.ImageUrl3" class="d-block w-100">
+                        </div>
+                    }
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card mb-3">
+            
+            <div class="card-body">
+                <h5 class="card-title">@Model.Title1</h5>
+                <p class="card-text">
+                    @Html.Raw(Model.Description1)
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">
+                        @Model.UpdatedDate
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<h1>Sayfanın Alt Kısmı</h1>
+<hr>
+<div class="row">
+    <div class="col-12">
+        <div class="card mb-3">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl4))
+            {
+                <img src="@Model.ImageUrl4" class="card-img-top">
+            }
+
+            <div class="card-body">
+                <h5 class="card-title">@Model.Title2</h5>
+                <p class="card-text">
+                    @Html.Raw(Model.Description2)
+                </p>
+                <p class="card-text">
+                    <small class="text-muted">
+                        @Model.UpdatedDate
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card radius-15">
+    <div class="card-body">
+        <div class="card-title">
+            <h4 class="mb-0">İletişim Bilgileri</h4>
+        </div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">@Model.FooterAddress</li>
+            <li class="list-group-item">@Model.FooterPhone</li>
+            <li class="list-group-item">@Model.FooterEmail</li>
+            <li class="list-group-item">@Model.FacebookUrl</li>
+            <li class="list-group-item">@Model.TwitterUrl</li>
+            <li class="list-group-item">@Model.LinkedInUrl</li>
+            <li class="list-group-item">@Model.YoutubeUrl</li>
+        </ul>
+    </div>
+</div>

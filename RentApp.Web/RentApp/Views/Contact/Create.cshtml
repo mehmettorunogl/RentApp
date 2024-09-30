@@ -1,0 +1,56 @@
+﻿@model Contact
+<!-- loader  -->
+<div class="loader_bg">
+    <div class="loader"><img src="~/images/loading.gif" alt="#" /></div>
+</div>
+<div class="back_re">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h2>BİZİMLE İLETİŞİME GEÇİN</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  contact -->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="request" class="main_form" method="post">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                                <input type="text" class="contactus" asp-for="Name" placeholder="İsim Soyisim">
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        <div class="col-md-12 ">
+                            <input type="text" class="contactus" asp-for="Email" placeholder="E-Posta">
+                                <span class="text-danger" asp-validation-for="Email"></span>
+                        </div>
+                        <div class="col-md-12">
+                                <input type="text" class="contactus" asp-for="PhoneNumber" placeholder="Telefon Numarası">
+                                <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea type="text" class="textarea" asp-for="Message" placeholder="Mesaj"></textarea>
+                                <span class="text-danger" asp-validation-for="Message"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="send_btn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="map_main">
+                    <div class="map-responsive">
+                        <iframe src="@Model.Map" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<House>
+<div class="loader_bg">
+    <div class="loader"><img src="~/images/loading.gif" alt="#" /></div>
+</div>
+<div class="back_re">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h2>Evlerimiz</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- blog -->
+<div class="blog">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="blog_box">
+                        <div class="blog_img">
+                            <a asp-controller="Gallery" asp-action="Index" asp-route-id="@item.Id"><figure><img src="@item.ImageUrl" alt="#" /></figure></a>
+                        </div>
+                        <div class="blog_room">
+                            <h3>@item.Title</h3>
+                            @foreach (var models in item.Price)
+                            {
+                                <span>@models.Cost.ToString("0") TL</span>
+                            }
+                            <p>@item.Country/@item.City/@item.District</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- end blog -->

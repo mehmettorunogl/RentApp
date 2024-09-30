@@ -1,0 +1,135 @@
+﻿@model MainPage
+<div class="row">
+    <div class="col-12">
+        <div class="card border-top border-0 border-4 border-dark">
+            <div class="card-body p-5">
+                <div class="card-title text-center">
+                    <h1 class="mb-5 mt-2 text-light">Anasayfa Düzenle</h1>
+                </div>
+                <hr>
+                <form class="row g-3" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="Id" />
+
+                    <h2>Sayfanın Üst Kısmı</h2>
+                    <div class="d-grid">
+                        <h3>İlk Resimi Seçin</h3>
+                        <label class="form-label"></label>
+                        <img src="@Model.ImageUrl1" width="200px" />
+                        <br />
+                        <input type="file" href="javascript:;" class="btn btn-primary" name="img1" accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl1"></span>
+                    </div>
+                    
+                    <div class="d-grid">
+                        <h3>İkinci Resimi Seçin</h3>
+                        <label class="form-label"></label>
+                        <img src="@Model.ImageUrl2" width="200px" />
+                        <br />
+                        <input type="file" href="javascript:;" class="btn btn-primary" name="img2" accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl2"></span>
+                    </div>
+                    
+                    <div class="d-grid">
+                        <h3>Üçüncü Resimi Seçin</h3>
+                        <label  class="form-label"></label>
+                        <img src="@Model.ImageUrl3" width="200px" />
+                        <br />
+                        <input type="file" href="javascript:;" class="btn btn-primary" name="img3" accept="*/image">
+                        <span class="text-danger" asp-validation-for="ImageUrl3"></span>
+                    </div>
+
+                    <div>
+                        <div class="col-12">
+                            <label asp-for="Title1" class="form-label">Başlık</label>
+                            <input type="text" class="form-control border-start-0" asp-for="Title1" placeholder="Başlık">
+                            <span class="text-danger" asp-validation-for="Title1"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description1" class="form-label">Açıklama</label>
+                            <textarea asp-for="Description1" class="form-control ckeditor"
+                                      placeholder="Açıklama" rows="4"></textarea>
+                            <span class="text-danger" asp-validation-for="Description1"></span>
+                        </div>
+                    </div>
+                    <h1>Sayfanın Alt Kısmı</h1>
+                    <div>
+                        <div class="col-12">
+                            <label asp-for="Title2" class="form-label">Başlık</label>
+                            <input type="text" class="form-control border-start-0" asp-for="Title2" placeholder="Başlık">
+                            <span class="text-danger" asp-validation-for="Title2"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="Description2" class="form-label">Açıklama</label>
+                            <textarea asp-for="Description2" class="form-control ckeditor"
+                                      placeholder="Açıklama" rows="4"></textarea>
+                            <span class="text-danger" asp-validation-for="Description2"></span>
+                        </div>
+                        <div class="d-grid">
+                            <h3>Hakkımızda Kısmının Resimini Seçin</h3>
+                            <label class="form-label"></label>
+                            <img src="@Model.ImageUrl4" width="200px" />
+                            <br />
+                            <input type="file" href="javascript:;" class="btn btn-primary" name="img4" accept="*/image">
+                            <span class="text-danger" asp-validation-for="ImageUrl4"></span>
+                        </div>
+                    </div>
+                    <h1>İletişim Bilgileri Düzenle</h1>
+                    <div>
+                        <div class="col-12">
+                            <label asp-for="FooterAddress" class="form-label">Adres</label>
+                            <input type="text" class="form-control border-start-0" asp-for="FooterAddress" placeholder="Adresi Giriniz">
+                            <span class="text-danger" asp-validation-for="FooterAddress"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="FooterPhone" class="form-label">Telefon</label>
+                            <input type="text" class="form-control border-start-0" asp-for="FooterPhone" placeholder="Telefonu Giriniz">
+                            <span class="text-danger" asp-validation-for="FooterPhone"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="FooterEmail" class="form-label">Email</label>
+                            <input type="text" class="form-control border-start-0" asp-for="FooterEmail" placeholder="Emaili Giriniz">
+                            <span class="text-danger" asp-validation-for="FooterEmail"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="FacebookUrl" class="form-label">Facebook Link</label>
+                            <input type="text" class="form-control border-start-0" asp-for="FacebookUrl" placeholder="Facebook Linkini Giriniz">
+                            <span class="text-danger" asp-validation-for="FacebookUrl"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="TwitterUrl" class="form-label">Twitter Link</label>
+                            <input type="text" class="form-control border-start-0" asp-for="TwitterUrl" placeholder="Twitter Linkini Giriniz">
+                            <span class="text-danger" asp-validation-for="TwitterUrl"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="LinkedInUrl" class="form-label">LinkedIn Link</label>
+                            <input type="text" class="form-control border-start-0" asp-for="LinkedInUrl" placeholder="LinkedIn Linkini Giriniz">
+                            <span class="text-danger" asp-validation-for="LinkedInUrl"></span>
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="YoutubeUrl" class="form-label">Youtube Link</label>
+                            <input type="text" class="form-control border-start-0" asp-for="YoutubeUrl" placeholder="Youtube Linkini Giriniz">
+                            <span class="text-danger" asp-validation-for="YoutubeUrl"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label asp-for="Status" class="form-label">Durumu</label>
+                        <select class="form-select mb-3" asp-for="Status">
+                            <option value="true">Aktif</option>
+                            <option value="false">Pasif</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark btn-lg px-5">Kaydet</button>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-grid">
+                            <button asp-area="Management" asp-controller="MainPage" asp-action="Index" class="btn btn-danger btn-lg px-5">Kaydetme</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

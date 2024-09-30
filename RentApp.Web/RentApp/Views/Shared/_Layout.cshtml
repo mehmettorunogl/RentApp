@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <partial name="_Head" />
+    <script src="js/notidication-custom-script.js"></script>
+
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="~/images/loading.gif"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <partial name="_NavBar" />
+      @RenderBody();
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+     
+      <!-- end contact -->
+      <!--  footer -->
+      <partial name="_Footer" /> 
+    @* @Html.Partial("_Footer"); *@
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <partial name="_Script" />
+
+      
+   </body>
+</html>

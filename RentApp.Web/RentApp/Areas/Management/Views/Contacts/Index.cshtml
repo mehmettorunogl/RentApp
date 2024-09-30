@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Contact>
+<div class="col-md-6">
+	@if (Model != null && Model.Any())
+	{
+		var item = Model.First(); // İlk öğeyi alır
+
+		<a class="btn btn-warning"
+		asp-area="Management"
+		asp-controller="Contacts"
+		asp-action="Edit"
+		asp-route-id="@item.Id"> Map'i Düzenle
+		</a>
+
+		<div class="map_main">
+			<div class="map-responsive">
+				<iframe src="@item.Map" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+			</div>
+		</div>
+	}
+</div>
+<hr />
+
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th scope="col">İsim</th>
+				<th scope="col">Email</th>
+				<th scope="col">Telefon Numarası</th>
+				<th scope="col">Mesaj</th>
+				<th scope="col">Tarihi</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+			<tr>
+				<td>@item.Name</td>
+				<td>@item.Email</td>
+				<td>@item.PhoneNumber</td>
+				<td>@item.Message</td>
+				<td>@item.CreatedDate.</td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>

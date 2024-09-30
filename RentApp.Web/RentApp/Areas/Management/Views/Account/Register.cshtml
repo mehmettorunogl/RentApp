@@ -1,0 +1,150 @@
+﻿@using RentApp.Areas.Management.Models
+@model RegisterViewModel
+
+@{
+	Layout = null;
+}
+
+<html lang="en"><head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Syndash - Bootstrap4 Admin Template</title>
+	<!--favicon-->
+	<link rel="icon" href="~/management/images/favicon-32x32.png" type="image/png">
+	<!-- loader-->
+	<link href="~/management/css/pace.min.css" rel="stylesheet">
+	<script src="~/management/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="~/management/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;family=Roboto&amp;display=swap">
+	<!-- Icons CSS -->
+	<link rel="stylesheet" href="~/management/css/icons.css">
+	<!-- App CSS -->
+	<link rel="stylesheet" href="~/management/css/app.css">
+</head>
+
+<body class="bg-register  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<div class="section-authentication-register d-flex align-items-center justify-content-center">
+			<div class="row">
+				<div class="col-12 col-lg-10 mx-auto">
+					<div class="card radius-15 overflow-hidden">
+						<div class="row g-0">
+							<div class="col-xl-6">
+								<div class="card-body p-md-5">
+									<div class="text-center">
+										<img src="~/management/images/logo-icon.png" width="80" alt="">
+										<h3 class="mt-4 font-weight-bold">Üyelik Kayıt Formu</h3>
+									</div>
+									<div class="">
+										<div class="form-body">
+											<form class="row g-3" method="post">
+												<div class="col-12">
+													<label asp-for="@Model.FullName" class="form-label">İsim Soyisim</label>
+													<input asp-for="@Model.FullName" type="text" class="form-control" placeholder="İsim ve Soyisminizi Giriniz">
+													<span asp-validation-for="@Model.FullName" class="text-danger"></span>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.Email" class="form-label">Email Adresiniz</label>
+													<input asp-for="@Model.Email" type="email" class="form-control" placeholder="Email Adresinizi Giriniz">
+													<span asp-validation-for="@Model.Email" class="text-danger"></span>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.Phone" class="form-label">Telefon Numaranız</label>
+													<input asp-for="@Model.Phone" class="form-control" placeholder="Telefon Numaranızı Giriniz">
+													<span asp-validation-for="@Model.Phone" class="text-danger"></span>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.IdentityNumber" class="form-label">Kimlik Numaranız</label>
+													<input asp-for="@Model.IdentityNumber" class="form-control" placeholder="Kimlik Numaranızı Giriniz">
+													<span asp-validation-for="@Model.IdentityNumber" class="text-danger"></span>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.Password" class="form-label">Şifre</label>
+													<div class="input-group" id="show_hide_password">
+														<input asp-for="@Model.Password" type="password" class="form-control border-end-0" placeholder="Şifrenizi Giriniz"> <a href="javascript:;" class="input-group-text bg-transparent"><i class="bx bx-show"></i></a>
+														<span asp-validation-for="@Model.Password" class="text-danger"></span>
+													</div>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.ConfirmPassword" for="inputChoosePassword" class="form-label">Şifre Tekrar</label>
+													<div class="input-group" id="show_hide_passwords">
+														<input asp-for="@Model.ConfirmPassword" type="password" class="form-control border-end-0" placeholder="Şifrenizi Tekrar Giriniz"> <a href="javascript:;" class="input-group-text bg-light"><i class="bx bx-show"></i></a>
+														<span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+													</div>
+												</div>
+												<div class="col-12">
+													<label asp-for="@Model.Role" for="inputSelectCountry" class="form-label">Rol Seçin</label>
+													<select asp-for="@Model.Role" class="form-select" aria-label="Default select example">
+														<option selected="">Rol Seçin</option>
+														<option value="Admin">Ev Sahibi</option>
+														<option value="SuperAdmin">Ortak</option>
+													</select>
+													<span asp-validation-for="@Model.Role" class="text-danger"></span>
+												</div>
+												<div class="col-12">
+													<div class="d-grid">
+														<button type="submit" class="btn btn-primary"><i class="bx bx-user me-1"></i>Kayıt Ol</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-xl-6 bg-login-color d-flex align-items-center justify-content-center">
+								<img src="~/management/images/login-images/register-frent-img.jpg" class="img-fluid">
+							</div>
+						</div>
+						<!--end row-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end wrapper -->
+	<!-- JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="~/management/js/jquery.min.js"></script>
+	<!--Password show & hide js -->
+	<script>
+		$(document).ready(function () {
+			$("#show_hide_password a").on('click', function (event) {
+				event.preventDefault();
+				if ($('#show_hide_password input').attr("type") == "text") {
+					$('#show_hide_password input').attr('type', 'password');
+					$('#show_hide_password i').addClass("bx-hide");
+					$('#show_hide_password i').removeClass("bx-show");
+				} else if ($('#show_hide_password input').attr("type") == "password") {
+					$('#show_hide_password input').attr('type', 'text');
+					$('#show_hide_password i').removeClass("bx-hide");
+					$('#show_hide_password i').addClass("bx-show");
+				}
+			});
+		});
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$("#show_hide_passwords a").on('click', function (event) {
+				event.preventDefault();
+				if ($('#show_hide_passwords input').attr("type") == "text") {
+					$('#show_hide_passwords input').attr('type', 'password');
+					$('#show_hide_passwords i').addClass("bx-hide");
+					$('#show_hide_passwords i').removeClass("bx-show");
+				} else if ($('#show_hide_passwords input').attr("type") == "password") {
+					$('#show_hide_passwords input').attr('type', 'text');
+					$('#show_hide_passwords i').removeClass("bx-hide");
+					$('#show_hide_passwords i').addClass("bx-show");
+				}
+			});
+		});
+	</script>
+</body></html>
+

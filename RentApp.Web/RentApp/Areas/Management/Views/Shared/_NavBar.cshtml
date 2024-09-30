@@ -1,0 +1,87 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+	<div class="container-fluid">
+<i class="lni lni-airbnb" style="margin-right:5px"></i>
+		<a class="navbar-brand" href="#">Airbnb Panel</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent3">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="MainPage" asp-action="Index"><i class="bx bx-home-alt me-1"></i>Anasayfa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="About" asp-action="Index"><i class="bx bx-user me-1"></i>Hakkımızda</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="House" asp-action="Index"><i class="lni lni-apartment" style="margin-right:4px"></i>Evlerimiz</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="Contract" asp-action="Index"><i class="lni lni-library" style="margin-right:4px"></i>Sözleşmeler</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="Contacts" asp-action="Index"><i class="bx bx-microphone me-1"></i>İletişim</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Analizler
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a class="dropdown-item" asp-controller="Dashboard" asp-action="Analytics">Rapor</a>
+						</li>
+						<li>
+							<a class="dropdown-item" asp-controller="Dashboard" asp-action="Sales">Satışlar</a>
+						</li>
+						<li>
+							<a class="dropdown-item" asp-controller="Dashboard" asp-action="UserInfo">Kayıtlı Kullanıcılar</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="right-topbar ms-auto">
+				<ul class="navbar-nav">
+					@if (User.Identity.IsAuthenticated)
+					{
+						<li class="nav-item dropdown dropdown-user-profile">
+							<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+								<div class="d-flex user-box align-items-center">
+									<div class="user-info">
+										<p class="user-name mb-0">@User.Identity.Name</p>
+									</div>
+									<img src="/management/images/icons/user.png" class="user-img" alt="user avatar">
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a class="dropdown-item" asp-controller="Account" asp-action="Register">
+									<i class="bx bx-user"></i><span>Yeni Kullanıcı Kayıt Edin</span>
+								</a>
+								<a class="dropdown-item" asp-controller="Dashboard" asp-action="Analytics">
+									<i class="bx bx-tachometer"></i><span>Raporlar</span>
+								</a>
+								<a class="dropdown-item" asp-controller="Dashboard" asp-action="Sales">
+									<i class="bx bx-wallet"></i><span>Satışlar</span>
+								</a>
+								<div class="dropdown-divider mb-0"></div>
+								<form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+									<button type="submit" class="dropdown-item">
+										<i class="bx bx-power-off"></i><span>Çıkış</span>
+									</button>
+								</form>
+							</div>
+						</li>
+					}
+					else
+					{
+					<li class="nav-item">
+						<a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+					</li>
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
