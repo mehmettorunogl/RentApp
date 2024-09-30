@@ -24,7 +24,7 @@ namespace RentApp.Helpers
                 string body = $"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n   " +
                     "<meta charset=\"utf-8\" />\r\n<title></title>\r\n" +
                     "<style>\r\nbody{{background-color:#f3f3f3;color:black;}}\r\n</style>\r\n</head>\r\n<body>\r\n" +
-                    $"<h1>Merhaba {fullName},</h1>\r\n" +
+                    $"<h1>Sayın {fullName},</h1>\r\n" +
                     $"<p>Rezervasyonunuz başarıyla oluşturulmuştur. İşte detaylar:</p>\r\n" +
                     $"<p><b>Ev:</b> {Title}</p>\r\n" +
                     $"<p><b>Adres:</b> {Adress}</p>\r\n" +
@@ -32,7 +32,7 @@ namespace RentApp.Helpers
                     $"<p><b>Giriş Tarihi:</b> {CheckinDate.ToString("dd MMMM yyyy")}</p>\r\n" +
                     $"<p><b>Çıkış Tarihi:</b> {CheckoutDate.ToString("dd MMMM yyyy")}</p>\r\n" +
                     $"<p><b>Toplam Fiyat:</b> {TotalPrice:C} TL</p>\r\n" +
-                    $"<p>Teşekkür ederiz! Eğer Rezervasyonunuzu iptal etmek isterseniz (son 5 gün kala iptal edebilirsiniz) ev sahibine mail atabilirsiniz ya da bize sitemizdeki İletişim bölümünden ulaşırsanız biz sizi ararız.Sağlıklı Günler dileriz.</p>\r\n" +
+                    $"<p>Teşekkür ederiz! Eğer Rezervasyonunuzu iptal etmek isterseniz (son 5 gün kala iptal edebilirsiniz) ev sahibine mail atabilirsiniz ya da bize sitemizdeki İletişim bölümünden ulaşırsanız biz size yardımcı oluruz.Sağlıklı Günler dileriz.</p>\r\n" +
                     "</body>\r\n</html>";
 
                 mailMessage.Subject = "Rezervasyon Bilgileriniz";
