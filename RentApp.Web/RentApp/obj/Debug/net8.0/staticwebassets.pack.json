@@ -713,32 +713,48 @@
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG1.jpg",
-      "PackagePath": "staticwebassets\\images\\OIG1.jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (2).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (2).png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG2 (1).jpg",
-      "PackagePath": "staticwebassets\\images\\OIG2 (1).jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (4).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (4).png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG2.VIq25Rfa.jpg",
-      "PackagePath": "staticwebassets\\images\\OIG2.VIq25Rfa.jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (5).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (5).png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG2.jpg",
-      "PackagePath": "staticwebassets\\images\\OIG2.jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (6).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (6).png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG3.0Vb.jpg",
-      "PackagePath": "staticwebassets\\images\\OIG3.0Vb.jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (7).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (7).png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\OIG3.jpg",
-      "PackagePath": "staticwebassets\\images\\OIG3.jpg"
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (8).png",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (8).png"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\4506f82f-bae7-4a80-b74e-19386b12f061.webp",
+      "PackagePath": "staticwebassets\\images\\4506f82f-bae7-4a80-b74e-19386b12f061.webp"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\WhatsApp Görsel 2024-09-30 saat 06.46.53_1ac2def8.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Görsel 2024-09-30 saat 06.46.53_1ac2def8.jpg"
     },
     {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\about.png",
       "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\airbnb_logo_resized_135x54-Photoroom.png",
+      "PackagePath": "staticwebassets\\images\\airbnb_logo_resized_135x54-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\airbnb_logo_resized_135x54.png",
+      "PackagePath": "staticwebassets\\images\\airbnb_logo_resized_135x54.png"
     },
     {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\banner1.jpg",
@@ -761,48 +777,12 @@
       "PackagePath": "staticwebassets\\images\\blog2.jpg"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\blog3.jpg",
-      "PackagePath": "staticwebassets\\images\\blog3.jpg"
-    },
-    {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\blog_bg.jpg",
       "PackagePath": "staticwebassets\\images\\blog_bg.jpg"
     },
     {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\date.png",
       "PackagePath": "staticwebassets\\images\\date.png"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery1.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery2.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery3.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery4.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery5.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery6.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery7.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\gallery8.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery8.jpg"
     },
     {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\loading.gif",
@@ -813,40 +793,8 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\logo1.jpg",
-      "PackagePath": "staticwebassets\\images\\logo1.jpg"
-    },
-    {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\menu_icon.png",
       "PackagePath": "staticwebassets\\images\\menu_icon.png"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room1.jpg",
-      "PackagePath": "staticwebassets\\images\\room1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room2.jpg",
-      "PackagePath": "staticwebassets\\images\\room2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room3.jpg",
-      "PackagePath": "staticwebassets\\images\\room3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room4.jpg",
-      "PackagePath": "staticwebassets\\images\\room4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room5.jpg",
-      "PackagePath": "staticwebassets\\images\\room5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\room6.jpg",
-      "PackagePath": "staticwebassets\\images\\room6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\images\\th.jpg",
-      "PackagePath": "staticwebassets\\images\\th.jpg"
     },
     {
       "Id": "C:\\Users\\mehme\\OneDrive\\Belgeler\\GitHub\\RentApp\\RentApp.Web\\RentApp\\wwwroot\\js\\bootstrap.bundle.js",

@@ -7,7 +7,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="~/images/logo1.jpg"alt="#" /></a>
+                                <a asp-controller="Home" asp-action="Index"><img src="~/images\4506f82f-bae7-4a80-b74e-19386b12f061-Photoroom (8).png" alt="#" /></a>
                             </div>
                         </div>
                     </div>
@@ -19,20 +19,17 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" asp-area="Management" asp-controller="Dashboard" asp-action="Analytics">Panel</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index">ANASAYFA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                                    <a class="nav-link" asp-controller="Home" asp-action="About">HAKKIMIZDA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Home" asp-action="About">Hakkımızda</a>
+                                    <a class="nav-link" asp-controller="Home" asp-action="House">EVLERİMİZ</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Home" asp-action="House">Evlerimiz</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Contact" asp-action="Create">İletişim</a>
+                                    <a class="nav-link" asp-controller="Contact" asp-action="Create">İLETİŞİM</a>
                                 </li>
                             </ul>
                         </div>
